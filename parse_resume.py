@@ -93,11 +93,6 @@ VitBot: A College Enquiry Chatbot (November-2023)
 
 Work Experience:
 AI Intern
-Accurate Industrial Controls
-06/2024 - Present, Pune, India
-- Developed and implemented C# and .NET code for capturing images in required formats for data collection and model training in the gas leakage detection project.
-- Led data collection efforts and established a data preprocessing pipeline to ensure high-quality input for model training.
-- Built an autoencoder-based model to accurately detect gas leaks, contributing to the project’s overall success.
 
 Certificates:
 - Python programming completion certificate.
