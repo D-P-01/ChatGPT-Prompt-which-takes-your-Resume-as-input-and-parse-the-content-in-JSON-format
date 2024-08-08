@@ -1,0 +1,84 @@
+{
+    "Name": "Dhananjay Pawal",
+    "Contact Information": {
+      "Email": "dhananjaypawal03@gmail.com",
+      "Address": "Pune, India"
+    },
+    "Summary": "An enthusiast and passionate Artificial Intelligence and Data Science engineering graduate looking for opportunities to showcase knowledge and gain the experience by solving real-world problems. And to hone organizational skills and teamwork abilities.",
+    "Skills": [
+      "C++",
+      "MySQL",
+      "JavaScript",
+      "OOPs",
+      "Data Structures",
+      "Problem Solving",
+      "DBMS",
+      "Machine Learning",
+      "HTML",
+      "CSS",
+      "Python",
+      "C#",
+      "Java",
+      ".Net"
+    ],
+    "Languages": [
+      {
+        "Language": "English",
+        "Proficiency": "Full Professional Proficiency"
+      },
+      {
+        "Language": "Marathi",
+        "Proficiency": "Full Professional Proficiency"
+      },
+      {
+        "Language": "Hindi",
+        "Proficiency": "Full Professional Proficiency"
+      }
+    ],
+    "Interests": [
+      "Eager to learn and adapt to new technologies and methodologies.",
+      "Cricket",
+      "Badminton"
+    ],
+    "Education": [
+      {
+        "Degree": "B.Tech (Artificial Intelligence and Data Science)",
+        "Institution": "Vishwakarma Institute Of Technology, Pune",
+        "CGPA": "8.7",
+        "Dates": "2020 - 2024"
+      }
+    ],
+    "Personal Projects": [
+      {
+        "Project Name": "AgroCare: A Plant Disease Diagnosis and Solution System",
+        "Dates": "May-2024",
+        "Description": "Developed an application predicting over 30+ crop diseases and offering solutions for these plant diseases. Employed a design thinking approach to create an intuitive solution. Created a user-friendly interface for farmers to easily upload images of affected crops and receive accurate disease predictions. Utilized CNN, Numpy, Pandas, ResNet34 model, and transfer learning, achieving an accuracy of 92%."
+      },
+      {
+        "Project Name": "Fake Product Detection using Blockchain",
+        "Dates": "January-2024",
+        "Description": "Developed an application to distinguish between counterfeit and non-counterfeit products. Implemented QR code scanning and generation of products with unique hash using SHA256, ownership transfer features to prevent fake copies of the product. Used Ganache as a local blockchain. Applied experience with MySQL, Web3, MetaMask, PHP, HTML, CSS, JavaScript, and Ganache."
+      },
+      {
+        "Project Name": "VitBot: A College Enquiry Chatbot",
+        "Dates": "November-2023",
+        "Description": "Created VitBot with a primary focus on enhancing the user experience for individuals seeking information about the college. Implemented an end-to-end chatbot portal capable of efficiently retrieving the needed information about the college. Trained this chatbot with 3000+ queries. Utilized HTML, CSS, and JavaScript to create a user-friendly frontend and developed and trained VitBot using the ChatterBot library."
+      }
+    ],
+    "Work Experience": [
+      {
+        "Job Title": "AI Intern"
+      }
+    ],
+    "Certifications": [
+      "Python programming completion certificate.",
+      "SQL completion certificate from Hackerrank.",
+      "Complete Web Development Bootcamp 2023."
+    ],
+    "Achievements": [
+      "Published paper in IEEE Explore on Simulation of CPU Scheduling Algorithms for Efficient Execution of Process.",
+      "Authored paper in ICJA Journal on Pattern Matching in File System.",
+      "Proposed a paper in SPICON conference on Human Following Robot."
+    ]
+  }
+  
