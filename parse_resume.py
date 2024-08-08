@@ -1,4 +1,5 @@
 import openai
+import json
 
 # Replace 'your-api-key' with your actual API key from OpenAI
 openai.api_key = 'your-api-key'
@@ -24,17 +25,17 @@ def parse_resume(resume_text):
     """
 
     response = openai.Completion.create(
-      engine="text-davinci-003",  # or another GPT-3 engine
-      prompt=prompt,
-      max_tokens=1500,
-      temperature=0.5,
+        engine="text-davinci-003",  # or another GPT-3 engine
+        prompt=prompt,
+        max_tokens=1500,
+        temperature=0.5,
     )
 
     return response.choices[0].text.strip()
 
 # Your resume text input
 resume_text = """
-Dhananjay Pawal 
+Dhananjay Pawal
 Pune, India 
 dhananjaypawal03@gmail.com
 
@@ -94,6 +95,7 @@ VitBot: A College Enquiry Chatbot (November-2023)
 Work Experience:
 AI Intern
 
+
 Certificates:
 - Python programming completion certificate.
 - SQL completion certificate from Hackerrank.
@@ -105,5 +107,14 @@ Achievements:
 - Proposed a paper in SPICON conference on Human Following Robot.
 """
 
+# Parse the resume and get JSON output
 json_output = parse_resume(resume_text)
-print(json_output)
+
+# Convert the JSON string to a dictionary
+parsed_data = json.loads(json_output)
+
+# Save the parsed data to a file named 'parsed_resume.json'
+with open('parsed_resume.json', 'w') as json_file:
+    json.dump(parsed_data, json_file, indent=4)
+
+print("Parsed resume saved to 'parsed_resume.json'")
