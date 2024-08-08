@@ -34,8 +34,7 @@ def parse_resume(resume_text):
 
 # Your resume text input
 resume_text = """
-Dhananjay Pawal
-7666588873 
+Dhananjay Pawal 
 Pune, India 
 dhananjaypawal03@gmail.com
 
